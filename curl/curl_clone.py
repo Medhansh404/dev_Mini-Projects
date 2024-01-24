@@ -46,6 +46,9 @@ def get_method():
     print(get)
 
 
+get_method()
+
+
 def post_method(payload, data_header):
     method = 'POST'
     # payload_str = f'{{{", ".join(f"{key}: {json.dumps(value)}" for key, value in payload.items())}}}'
@@ -73,4 +76,4 @@ def delete_method():
     print(delete)
 
 
-delete_method()
+#delete_method()
